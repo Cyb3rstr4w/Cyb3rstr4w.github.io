@@ -9,5 +9,11 @@ font-family: Arial, sans-serif;
 header {
 background-color: #4CAF50;
   color: white;
-  padding: lem;
+  padding: 100px;
+}
+
+.header2 {
+background-color: white;
+  color: black;
+  padding: 20px;
 }
