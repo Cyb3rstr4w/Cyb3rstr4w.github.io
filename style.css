@@ -7,7 +7,7 @@ font-family: Arial, sans-serif;
 }
 
 nav {
-margin: 20px 0;
+margin: 10px 0;
 }
 
 nav a {
@@ -27,7 +27,7 @@ padding: 2em;
 .header1 {
 background-color: #4CAF50;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: end;
 }
 
