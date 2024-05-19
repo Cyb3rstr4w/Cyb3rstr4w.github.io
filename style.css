@@ -24,12 +24,12 @@ display:flex;
 
 .header-end {
 display: flex;
-  align-items: end;
+  align-items: center;
 }
 
 .header-start {
 display: flex;
-  align-items: start;
+  align-items: center;
 }
 
 .header-end ul{
