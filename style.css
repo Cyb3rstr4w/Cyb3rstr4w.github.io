@@ -10,16 +10,6 @@ nav {
 margin: 20px 0;
 }
 
-nav a {
-margin: 0 10px;
-  text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-text-decoration: underline;
-}
-
 main {
 padding: 2em;
 }
@@ -29,6 +19,33 @@ background-color: #4CAF50;
   color: white;
   padding: 10px;
   text-align: end;
+}
+.header-content {
+display:flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.header-end {
+display: flex;
+  align-items: center;
+}
+
+.header-start {
+display: flex;
+  align-items: center;
+}
+
+.header-end ul{
+list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-end a:hover{
+text-decoration: underline;
+  color: white;
 }
 
 .header2 {
