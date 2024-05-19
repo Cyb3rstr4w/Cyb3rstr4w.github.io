@@ -18,30 +18,32 @@ background-color: #4CAF50;
 }
 .header-content {
 display:flex;
-  justify-content: space-between;
   width: 95%;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .header-end {
 display: flex;
-  align-items: center;
+  align-items: end;
 }
 
 .header-start {
 display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .header-end ul{
 list-style-type: none;
   display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-end a:hover{
-text-decoration: underline;
+text-decoration: none;
   color: white;
-  gap: 20px;
 }
 
 .header2 {
