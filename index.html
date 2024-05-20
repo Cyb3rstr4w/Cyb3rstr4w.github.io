@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frank Lesko</title>
-     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="header1">
-      <div class="header-content">
-        <div class="header-start">
-          <p>Frank Lesko</p>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frank Lesko</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header1">
+    <div class="header-content">
+      <div class="header-start">
+        <p>Frank Lesko</p>
+      </div>
       <nav class="header-end">
         <ul>
-        <li><a href="index.html">Home</a></li> <li><a href="contact.html">Contact</a></li> <li><a href="donate.html">Donate</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
         </ul>
       </nav>
-      </div>
-    </header>
-    <header class="header2">
-      <h1>Elect Frank Lesko for County Recorder</h1>
-    </header>
-    <main>
-      <p>Hello my name is Frank Lesko and I am running to be your Sangamon County Recorder.</p>
-      <div class="slideshow-container">
+    </div>
+  </header>
+  <header class="header2">
+    <h1>Elect Frank Lesko for County Recorder</h1>
+  </header>
+  <main>
+    <p>Hello my name is Frank Lesko and I am running to be your Sangamon County Recorder.</p>
+    <div class="slideshow-container">
       <div class="mySlides fade">
         <img src="images/FrankLeskoMail1.png" style="width:100%">
         <div class="text">Text Overlay 1</div>
@@ -34,13 +36,28 @@
         <div class="text">Text Overlay 2</div>
       </div>
       <div class="mySlides fade">
-        <img src="images/lesko 4'x6'.jpg" style="width:100%">
+        <img src="images/lesko 4x6.jpg" style="width:100%">
         <div class="text">Text Overlay 3</div>
       </div>
     </div>
-    </main>
-    <header class="closer">
-      <p>Paid for by friends of Frank Lesko</p>
-    </header>
-  </body>
+  </main>
+  <header class="closer">
+    <p>Paid for by friends of Frank Lesko</p>
+  </header>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("mySlides");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+  </script>
+</body>
 </html>
