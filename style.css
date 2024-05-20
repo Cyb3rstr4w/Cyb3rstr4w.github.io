@@ -100,7 +100,7 @@ main {
 
 .mySlides img {
   width: 100%;
-  opacity: 0.6; /* Set low opacity for the slideshow images */
+  opacity: 1; /* Set opacity for the slideshow images */
 }
 
 .text {
