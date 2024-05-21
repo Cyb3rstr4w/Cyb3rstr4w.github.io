@@ -75,7 +75,7 @@ main {
 }
 
 .header2 {
-  font-size: 32px;
+  font-size: 24px;
   background-color: #f4f4f4;
   color: black;
   padding: 20px;
@@ -209,7 +209,7 @@ margin-right: 20px;
     max-width: 250px; /* Adjust the size for tablet sizes */
   }
   .header2 {
-  font-size: 32px;
+  font-size: 16px;
 }
   quote-container {
     gap: 10px;
@@ -225,13 +225,13 @@ margin-right: 20px;
   }
   .responsive-img2 {
     max-width: 200px; /* Adjust the size for mobile sizes */
-    margin-right: 5px;
+    margin-right: 0px;
   }
   .header2 {
-  font-size: 24px;
+  font-size: 12px;
 }
   quote-container {
-    gap: 5px;
+    gap: 0px;
   }
   .quote-text {
   font-size: 12px;
