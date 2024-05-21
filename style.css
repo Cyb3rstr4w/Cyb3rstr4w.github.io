@@ -86,7 +86,6 @@ main {
   color: white;
   padding: 10px;
   text-align: center; /* Corrected syntax */
-  z-index: 2;
   overflow: hidden;
 }
 
@@ -168,6 +167,7 @@ main {
   display: inline-block;
   margin-top: 10px;
   z-index: 2; /* Ensure it is above the background image */
+  position: relative;
 }
 
 .facebook-icon {
