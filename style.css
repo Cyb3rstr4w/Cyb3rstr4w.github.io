@@ -205,6 +205,7 @@ margin-right: 20px;
   }
   .responsive-img2 {
     max-width: 200px; /* Adjust the size for mobile sizes */
+    margin-right: 5px;
   }
   .quote-text {
   font-size: 12px;
