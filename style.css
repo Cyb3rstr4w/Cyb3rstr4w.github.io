@@ -85,6 +85,7 @@ main {
   color: white;
   padding: 10px;
   text-align: center; /* Corrected syntax */
+  z-index: 1;
 }
 
 .closer::before { /* allows for the image to be displayed on the bottom layer and take up the header before other images.*/
