@@ -130,3 +130,19 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.responsive-img {
+width: 8%;
+}
+
+@media screen and (max-width: 768px) {
+.responsive-img {
+width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.responsive-img {
+width: 100%;
+  }
+}
