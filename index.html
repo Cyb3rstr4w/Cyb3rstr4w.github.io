@@ -52,18 +52,22 @@
   </a>
   </header>
   <script> <!-- Gets all slides from style.css, hides all images in the loop and then displays the first slide and increments to show the next once its recalled at the bottom. -->
-    let slideIndex = 0;
+   let slideIndex = 0;
     showSlides();
 
     function showSlides() {
       let slides = document.getElementsByClassName("mySlides");
       for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
+        slides[i].classList.remove("fadeIn");
+        slides[i].classList.add("fadeOut");
       }
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1 }
       slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 4000);
+      slides[slideIndex - 1].classList.remove("fadeOut");
+      slides[slideIndex - 1].classList.add("fadeIn");
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
     }
   </script>
 </body>
