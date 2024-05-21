@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header1">
+  <header class="header1"> <!-- Main header used as a container for the others. -->
     <div class="header-content">
       <div class="header-start">
-        <img src="images/FrankSign.png" style="width:8%">
+        <img src="images/FrankSign.png" style="width:8%"> <!-- Small sign within the start of the header -->
       </div>
       <nav class="header-end">
         <ul>
+          <!-- Uses these reference links as a part of a list -->
           <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="donate.html">Donate</a></li>
@@ -27,7 +28,7 @@
   <main>
     <p>Hello my name is Frank Lesko and I am running to be your Sangamon County Recorder.</p>
     <div class="slideshow-container">
-      <div class="mySlides fade">
+      <div class="mySlides fade"> <!-- Slideshow container contains mySlides fade which allows for the image and text to change to the next in the container -->
         <img src="images/FrankLeskoMail1.png" style="width:100%">
         <div class="text">Ex: Frank had a great fundraiser!</div>
       </div>
@@ -44,7 +45,7 @@
   <header class="closer">
     <p>Paid for by friends of Frank Lesko</p>
   </header>
-  <script>
+  <script> <!-- Gets all slides from style.css, hides all images in the loop and then displays the first slide and increments to show the next once its recalled at the bottom. -->
     let slideIndex = 0;
     showSlides();
 
@@ -56,7 +57,7 @@
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1 }
       slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 4000); // Change image every 4 seconds
+      setTimeout(showSlides, 4000);
     }
   </script>
 </body>
