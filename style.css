@@ -198,6 +198,9 @@ margin-right: 20px;
   .header2 {
   font-size: 32px;
 }
+  quote-container {
+    gap: 10px;
+  }
   .quote-text {
   font-size: 24px;
   }
@@ -214,6 +217,9 @@ margin-right: 20px;
   .header2 {
   font-size: 24px;
 }
+  quote-container {
+    gap: 5px;
+  }
   .quote-text {
   font-size: 12px;
   }
