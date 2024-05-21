@@ -172,6 +172,7 @@ to {opacity:1 }
 .responsive-img2 {
 max-width:600px;
   height: auto;
+margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -189,9 +190,17 @@ max-width:600px;
 .quote-container {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  text-align: start;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: end;
   flex-wrap: wrap;
+}
+
+.quote-text {
+  font-size: 24px;
+  flex: 1;
+  align-self: center;
+  text-align: left;
 }
 
 .facebook-button {
