@@ -132,17 +132,19 @@ main {
 }
 
 .responsive-img {
-width: 8%;
+  max-width: 100px; /* Maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
 }
 
+/* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
-.responsive-img {
-width: 70%;
+  .responsive-img {
+    max-width: 80px; /* Adjust the size for tablet sizes */
   }
 }
 
 @media screen and (max-width: 480px) {
-.responsive-img {
-width: 100%;
+  .responsive-img {
+    max-width: 60px; /* Adjust the size for mobile sizes */
   }
 }
