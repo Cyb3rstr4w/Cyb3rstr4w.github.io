@@ -186,8 +186,7 @@ max-width:600px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
-  text-align: end;
+  text-align: start;
   flex-wrap: wrap;
 }
 
