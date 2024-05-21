@@ -164,6 +164,23 @@ main {
   }
 }
 
+.responsive-img {
+max-width:600px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-img {
+    max-width: 700px; /* Adjust the size for tablet sizes */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .responsive-img {
+    max-width: 800px; /* Adjust the size for mobile sizes */
+  }
+}
+
 .facebook-button {
   display: inline-block;
   margin-top: 10px;
