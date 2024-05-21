@@ -75,6 +75,7 @@ main {
 }
 
 .header2 {
+  font-size: 56px;
   background-color: #f4f4f4;
   color: black;
   padding: 20px;
@@ -194,6 +195,9 @@ margin-right: 20px;
   .responsive-img2 {
     max-width: 250px; /* Adjust the size for tablet sizes */
   }
+  .header2 {
+  font-size: 32px;
+}
   .quote-text {
   font-size: 24px;
   }
@@ -207,6 +211,9 @@ margin-right: 20px;
     max-width: 200px; /* Adjust the size for mobile sizes */
     margin-right: 5px;
   }
+  .header2 {
+  font-size: 24px;
+}
   .quote-text {
   font-size: 12px;
   }
