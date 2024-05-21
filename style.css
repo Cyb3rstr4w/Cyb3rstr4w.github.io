@@ -81,6 +81,7 @@ main {
 }
 
 .closer {
+  position: relative;
   background-color: #FF0000;
   color: white;
   padding: 10px;
