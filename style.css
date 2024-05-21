@@ -87,6 +87,18 @@ main {
   text-align: center; /* Corrected syntax */
 }
 
+.closer::before { /* allows for the image to be displayed on the bottom layer and take up the header before other images.*/
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/022/650/344/small_2x/the-national-flag-of-the-united-states-beautifully-waving-star-and-striped-american-flag-generative-ai-photo.jpg') no-repeat center center/cover;
+  opacity: 0.5;
+  z-index: 0;
+}
+
 .slideshow-container {
   position: relative;
   max-width: 1000px;
