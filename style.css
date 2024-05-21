@@ -23,7 +23,7 @@ main {
   overflow: hidden;
 }
 
-.header1::before {
+.header1::before { /* allows for the image to be displayed on the bottom layer and take up the header before other images.*/
   content: "";
   position: absolute;
   top: 0;
@@ -115,7 +115,7 @@ main {
 }
 
 .fade {
-  -webkit-animation-name: fade;
+  -webkit-animation-name: fade; /* Defines the fade animation and length. */
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
