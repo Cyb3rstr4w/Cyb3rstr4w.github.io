@@ -131,10 +131,12 @@ main {
 }
 
 .fade {
-  -webkit-animation-name: fade; /* Defines the fade animation and length. */
+  -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
   animation-name: fade;
   animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes fade {
