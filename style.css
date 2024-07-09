@@ -84,7 +84,7 @@ main {
   border-radius: 10px; /* Rounds the corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   z-index: 10; /* Ensures the dropdown is above other content */
-  width: calc(100% - 40px); /* Ensures it fits within the container */
+  overflow: visible;
 }
 
 .header-end {
@@ -268,16 +268,6 @@ max-width:400px;
   .text {
     font-size: 12px;
   }
-  .menu-icon {
-    display: block; /* Show the menu icon on small screens */
-  }
-  .nav-links {
-    display: none; /* Hide the nav links by default */
-  }
-
-  .nav-links.active {
-    display: flex; /* Show the nav links when the menu is active */
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -299,15 +289,5 @@ max-width:400px;
   }
   .text {
     font-size: 10px;
-  }
-    .menu-icon {
-    display: block; /* Show the menu icon on small screens */
-  }
-  .nav-links {
-    display: none; /* Hide the nav links by default */
-  }
-
-  .nav-links.active {
-    display: flex; /* Show the nav links when the menu is active */
   }
 }
