@@ -108,9 +108,6 @@ main {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-   background-color: #FFFFFF; /* light grey bg */
-  border: 2px solid #003366; /* navy border */
-  border-radius: 10px; /* Rounds the corners of the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
@@ -235,7 +232,7 @@ margin-right: 20px;
     max-width: 50px; /* Adjust the size for mobile sizes */
   }
   .responsive-img2 {
-    max-width: 200px; /* Adjust the size for mobile sizes */
+    max-width: 150px; /* Adjust the size for mobile sizes */
     margin-right: 0px;
   }
   .header2 {
