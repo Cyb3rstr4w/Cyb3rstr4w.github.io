@@ -210,7 +210,6 @@ main {
 .responsive-img2 {
 max-width:400px;
   height: auto;
-margin-right: 20px;
 }
 
 .quote-container {
@@ -218,7 +217,7 @@ margin-right: 20px;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
-  background-color: #FFFFFF; /* light grey bg */
+  background-color: #41418D; /* light grey bg */
   border: 2px solid #800000; /* maroon border */
   border-radius: 10px; /* Rounds the corners of the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
@@ -233,6 +232,7 @@ margin-right: 20px;
   flex: 1;
   align-self: center;
   text-align: left;
+  color: white;
 }
 
 .facebook-button {
