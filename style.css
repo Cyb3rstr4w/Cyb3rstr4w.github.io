@@ -146,6 +146,7 @@ main {
 
 .slideshow-container {
   position: relative;
+  background-color: #FFFFFF;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
@@ -216,8 +217,7 @@ max-width:400px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
-  background-color: #41418D; /* light grey bg */
+  background-color: #FFFFFF; /* white bg */
   border: 2px solid #800000; /* maroon border */
   border-radius: 10px; /* Rounds the corners of the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
