@@ -219,7 +219,7 @@ margin-right: 20px;
   align-items: flex-start;
   gap: 20px;
   background-color: #FFFFFF; /* light grey bg */
-  border: 2px solid #003366; /* navy border */
+  border: 2px solid #800000; /* maroon border */
   border-radius: 10px; /* Rounds the corners of the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
