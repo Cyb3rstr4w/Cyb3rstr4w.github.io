@@ -47,14 +47,14 @@ main {
 }
 
 .menu-icon {
-  display: none; /* Hidden by default */
+  display: block;
   font-size: 30px; /* Larger font size for the hamburger icon */
   cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
 .nav-links {
   list-style-type: none; /* Removes bullet points from the list */
-  display: flex; /* Uses flexbox layout */
+  display: none; /* display none */
   gap: 20px; /* Adds space between list items */
   margin: 0; /* Removes default margin */
   padding: 0; /* Removes default padding */
@@ -207,9 +207,10 @@ main {
 }
 
 .responsive-img2 {
-max-width:400px;
+max-width:100%;
   height: auto;
 margin-right: 20px;
+  box-sizing: border-box;
 }
 
 .quote-container {
@@ -223,6 +224,10 @@ margin-right: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
+  padding: 20px; /* Adds padding inside the container */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  overflow: hidden; /* Prevents content from overflowing the container */
+}
 }
 
 .quote-text {
