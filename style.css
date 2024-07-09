@@ -46,6 +46,46 @@ main {
   z-index: 1;
 }
 
+.menu-icon {
+  display: none; /* Hidden by default */
+  font-size: 30px; /* Larger font size for the hamburger icon */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.nav-links {
+  list-style-type: none; /* Removes bullet points from the list */
+  display: flex; /* Uses flexbox layout */
+  gap: 20px; /* Adds space between list items */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.nav-links li {
+  display: inline; /* Displays list items inline */
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Sets link color to white */
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Underlines link on hover */
+  color: white; /* Keeps link color white on hover */
+}
+
+.nav-links.active {
+  display: block; /* Displays the nav links when active */
+  position: absolute; /* Positions the element absolutely */
+  top: 50px; /* Aligns below the header */
+  right: 20px; /* Aligns to the right */
+  background-color: #003366; /* Sets background color */
+  padding: 20px; /* Adds padding */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  z-index: 10; /* Ensures the dropdown is above other content */
+}
+
 .header-end {
   display: flex;
   align-items: center;
