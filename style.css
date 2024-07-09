@@ -265,6 +265,16 @@ margin-right: 20px;
   .text {
     font-size: 12px;
   }
+  .menu-icon {
+    display: block; /* Show the menu icon on small screens */
+  }
+  .nav-links {
+    display: none; /* Hide the nav links by default */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show the nav links when the menu is active */
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -286,5 +296,15 @@ margin-right: 20px;
   }
   .text {
     font-size: 10px;
+  }
+    .menu-icon {
+    display: block; /* Show the menu icon on small screens */
+  }
+  .nav-links {
+    display: none; /* Hide the nav links by default */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show the nav links when the menu is active */
   }
 }
