@@ -79,11 +79,11 @@ main {
 
 .closer {
   position: relative;
-  color: white;
+  color: black;
   padding: 10px;
   text-align: center; /* Corrected syntax */
   overflow: hidden;
-  background: url('FlagBG.png') no-repeat center center/cover;
+  font-size: 24px;
   z-index: 2;
 }
 
