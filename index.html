@@ -28,11 +28,11 @@
   </header>
   <main>
     <div class="quote-container">
-      <img src="images/FrankLesko.png" class="responsive-img2" alt="Frank Lesko"><p class="quote-text">"Character is like a tree and reputation like a shadow. The shadow is what we think of it; The tree is the real thing."<br><b>- Abraham Lincoln</b>
-        </p>
+      <img src="images/FrankLesko.png" class="responsive-img2" alt="Frank Lesko">
+      <p class="quote-text">"Character is like a tree and reputation like a shadow. The shadow is what we think of it; The tree is the real thing."<br><b>- Abraham Lincoln</b></p>
     </div>
     <div class="slideshow-container">
-      <div class="mySlides fade"> <!-- Slideshow container contains mySlides fade which allows for the image and text to change to the next in the container -->
+      <div class="mySlides fade">
         <img src="images/FrankParade.jpg" style="width:90%">
         <div class="text">Hi Friends! I had a blast today dressing up as Franky O'Lesko with my Shamrocks at the St. Patrick's Day parade downtown! Thank you to my employees, friends and family for braving the cold wind and having fun with me today!</div>
       </div>
@@ -44,20 +44,23 @@
         <img src="images/FrankSign.png" style="width:84%" id="sign.png">
         <div class="text">Please don't forget to vote!</div>
       </div>
-      </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
     </div>
   </main>
   <header class="closer">
     <p><b>Paid for by friends of Frank Lesko</b></p>
     <a href="https://www.facebook.com/friendsoffranklesko/" target="_blank" class="facebook-button">
-    <img src="images/facebook-icon.png" alt="Facebook" class="facebook-icon">
-  </a>
+      <img src="images/facebook-icon.png" alt="Facebook" class="facebook-icon">
+    </a>
   </header>
-  <script> <!-- Gets all slides from style.css, hides all images in the loop and then displays the first slide and increments to show the next once its recalled at the bottom. -->
-let slideIndex = 1;
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+
+    let slideIndex = 1;
     showSlides(slideIndex);
 
     function plusSlides(n) {
