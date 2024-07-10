@@ -104,16 +104,66 @@ main {
   margin: auto;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  overflow: visible;
 }
 
 .mySlides {
   display: none;
   position: relative;
+  border: 2px solid black;
 }
 
 .mySlides img {
   width: 100%;
-  opacity: 1; /* Set opacity for the slideshow images */
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 1;
+}
+
+.next {
+  right: -50px; /* Position next button slightly outside to the right */
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: -50px; /* Position previous button slightly outside to the left */
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides.visible-left {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -25%;
+  z-index: 0;
+  opacity: 0.5; /* Make it slightly transparent */
+}
+
+.mySlides.visible-right {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -25%;
+  z-index: 0;
+  opacity: 0.5; /* Make it slightly transparent */
 }
 
 .text {
