@@ -177,7 +177,7 @@ main {
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 200px;
+  min-height: 600px;
   color: white; /* Ensure text is visible on background */
   padding: 10px;
 }
