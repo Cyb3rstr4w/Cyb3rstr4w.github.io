@@ -22,7 +22,7 @@ main {
   overflow: hidden;
 }
 
-.header1::before { /* allows for the image to be displayed on the bottom layer and take up the header before other images.*/
+.header1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -88,7 +88,7 @@ main {
   z-index: 2;
 }
 
-.closer::before { /* allows for the image to be displayed on the bottom layer and take up the header before other images.*/
+.closer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -164,7 +164,7 @@ main {
 }
 
 .responsive-img2 {
-max-width:400px;
+  max-width: 400px;
   height: auto;
 }
 
@@ -178,13 +178,11 @@ max-width:400px;
   flex-wrap: wrap;
   width: 100%;
 }
-}
 
 .quote-text {
   font-size: 48px;
   align-self: center;
   text-align: left;
-  
 }
 
 .facebook-button {
@@ -221,20 +219,13 @@ max-width:400px;
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "prev button" to the left */
 .prev {
   left: 0;
   border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* Media queries to adjust image size on smaller screens */
@@ -246,13 +237,13 @@ max-width:400px;
     max-width: 250px; /* Adjust the size for tablet sizes */
   }
   .header2 {
-  font-size: 16px;
-}
-  quote-container {
+    font-size: 16px;
+  }
+  .quote-container {
     gap: 10px;
   }
   .quote-text {
-  font-size: 24px;
+    font-size: 24px;
   }
   .text {
     font-size: 12px;
@@ -268,13 +259,13 @@ max-width:400px;
     margin-right: 0px;
   }
   .header2 {
-  font-size: 12px;
-}
-  quote-container {
+    font-size: 12px;
+  }
+  .quote-container {
     gap: 0px;
   }
   .quote-text {
-  font-size: 12px;
+    font-size: 12px;
   }
   .text {
     font-size: 10px;
