@@ -190,16 +190,6 @@ main {
   font-style: italic; /* Italicize the text */
 }
 
-.quote-attribution {
-  font-size: 48px;
-  text-align: center;
-  margin-left: auto;
-  max-width: 50%;
-  margin-top: 10px;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  font-weight: bold;
-}
-
 .facebook-button {
   display: inline-block;
   margin-top: 10px;
