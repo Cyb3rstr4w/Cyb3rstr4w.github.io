@@ -171,17 +171,22 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #FFFFFF; /* white bg */
+  background: url('images/4thJulyFrankLesko.jpg') no-repeat center center/cover; /* Set background image */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
+  padding: 20px; /* Adds padding inside the container */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  color: white; /* Ensure text is visible on background */
 }
 
 .quote-text {
-  font-size: 48px;
+   font-size: 48px;
   align-self: center;
   text-align: left;
+  flex: 1; /* Ensure it takes up the available space */
+  margin: 0; /* Remove default margin */
 }
 
 .facebook-button {
@@ -240,6 +245,7 @@ main {
   }
   .quote-container {
     gap: 10px;
+    background-size: contain; /* Adjust background size for mobile sizes */
   }
   .quote-text {
     font-size: 24px;
@@ -262,6 +268,7 @@ main {
   }
   .quote-container {
     gap: 0px;
+    background-size: contain; /* Adjust background size for mobile sizes */
   }
   .quote-text {
     font-size: 12px;
