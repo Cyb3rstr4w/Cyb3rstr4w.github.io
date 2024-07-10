@@ -63,12 +63,12 @@ main {
 
 .header-end a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .header-end a:hover {
   text-decoration: underline;
-  color: white;
+  color: blue;
 }
 
 .header2 {
@@ -184,8 +184,8 @@ main {
 .quote-text {
   
    font-size: 36px;
-  align-self: center;
-  text-align: right;
+  align-self: end;
+  text-align: end;
   flex: 1; /* Ensure it takes up the available space */
   margin-left: 50px;
 }
