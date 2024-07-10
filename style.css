@@ -171,7 +171,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background: url('images/4thJulyFrankLesko.jpg') no-repeat center center/cover; /* Set background image */
+  background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
