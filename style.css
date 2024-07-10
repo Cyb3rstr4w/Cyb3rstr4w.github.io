@@ -25,6 +25,7 @@ main {
 .header1::before {
   content: "";
   position: absolute;
+  background: url('FlagBG.png') no-repeat center center/cover;
   top: 0;
   left: 0;
   width: 100%;
