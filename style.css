@@ -169,15 +169,15 @@ main {
 
 .quote-container {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
   background-size: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 600px;
+  min-height: 400px;
   color: white; /* Ensure text is visible on background */
   padding: 10px;
 }
