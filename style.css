@@ -186,7 +186,6 @@ main {
   text-align: center;
   margin-left: auto;
   max-width: 50%;
-  padding: 10px;
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Use Palatino font */
   font-style: italic; /* Italicize the text */
 }
