@@ -172,6 +172,7 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
+  background-size: contain;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
@@ -183,7 +184,7 @@ main {
 .quote-text {
   
    font-size: 36px;
-  text-align: end;
+  text-align: center;
   flex: 1; /* Ensure it takes up the available space */
   margin-left: auto;
   max-width: 50%;
