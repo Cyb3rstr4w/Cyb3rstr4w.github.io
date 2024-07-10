@@ -176,8 +176,6 @@ main {
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px; /* Adds padding inside the container */
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
   color: white; /* Ensure text is visible on background */
 }
 
