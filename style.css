@@ -177,19 +177,19 @@ main {
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 400px;
+  min-height: 580px;
   color: white; /* Ensure text is visible on background */
-  padding: 10px;
+  padding: 20px;
 }
 
 .quote-text {
   
-   font-size: 36px;
+   font-size: 48px;
   text-align: center;
   flex: 1; /* Ensure it takes up the available space */
   margin-left: auto;
   max-width: 50%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .facebook-button {
