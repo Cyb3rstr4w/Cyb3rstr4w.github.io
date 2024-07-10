@@ -30,7 +30,6 @@ main {
   width: 100%;
   height: 100%;
   background: url('https://static.vecteezy.com/system/resources/thumbnails/022/650/344/small_2x/the-national-flag-of-the-united-states-beautifully-waving-star-and-striped-american-flag-generative-ai-photo.jpg') no-repeat center center/cover;
-  opacity: 0.5;
   z-index: 0;
 }
 
@@ -97,7 +96,6 @@ main {
   width: 100%;
   height: 100%;
   background: url('https://static.vecteezy.com/system/resources/thumbnails/022/650/344/small_2x/the-national-flag-of-the-united-states-beautifully-waving-star-and-striped-american-flag-generative-ai-photo.jpg') no-repeat center center/cover;
-  opacity: 0.5;
   z-index: 0;
 }
 
@@ -175,12 +173,10 @@ max-width:400px;
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #FFFFFF; /* white bg */
-  border: 2px solid #800000; /* maroon border */
-  border-radius: 10px; /* Rounds the corners of the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
-  overflow: hidden; /* Prevents content from overflowing the container */
+  width: 100%;
 }
 }
 
@@ -188,7 +184,7 @@ max-width:400px;
   font-size: 48px;
   align-self: center;
   text-align: left;
-  color: white;
+  
 }
 
 .facebook-button {
