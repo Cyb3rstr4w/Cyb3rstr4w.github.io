@@ -181,11 +181,12 @@ main {
 }
 
 .quote-text {
+  
    font-size: 48px;
   align-self: center;
-  text-align: left;
+  text-align: right;
   flex: 1; /* Ensure it takes up the available space */
-  margin: 0; /* Remove default margin */
+  margin-left: 50px;
 }
 
 .facebook-button {
