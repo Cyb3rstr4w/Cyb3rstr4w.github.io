@@ -189,6 +189,11 @@ main {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Use Palatino font */
 }
 
+.elect-text{
+  font-size: 16px;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .facebook-button {
   display: inline-block;
   margin-top: 10px;
@@ -253,6 +258,9 @@ main {
   .text {
     font-size: 12px;
   }
+  .elect-text{
+  font-size: 10px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -276,4 +284,7 @@ main {
   .text {
     font-size: 10px;
   }
+  .elect-text{
+  font-size: 6px;
+}
 }
