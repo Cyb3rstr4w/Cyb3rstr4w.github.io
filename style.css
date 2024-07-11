@@ -99,6 +99,29 @@ main {
   background-color: #FFFFFF;
 }
 
+.whoFrank-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes space evenly */
+  align-items: flex-start; /* Aligns items to the start horizontally */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #FFFFFF;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.whoFrank-start, .whoFrank-middle, .whoFrank-end {
+  width: 100%;
+}
+
+.whoFrank-middle {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex: 1; /* Take up remaining space */
+}
+
 .slideshow-container {
   position: relative;
   background-color: #FFFFFF;
@@ -339,10 +362,12 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   .quote-container {
     gap: 0px;
     background-size: .25em;
+    overflow: hidden;
   }
   .quote-text {
      font-size: 0.25em;
     text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
+    overflow: hidden;
   }
   .text {
      font-size: 0.25em;
