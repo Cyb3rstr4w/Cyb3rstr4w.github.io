@@ -100,10 +100,10 @@ main {
 }
 
 .whoFrank-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Distributes space evenly */
-  align-items: flex-start; /* Aligns items to the start horizontally */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-template-rows: 1fr 1fr 1fr; /* Three rows with equal height */
+  gap: 20px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
   margin: auto;
@@ -111,15 +111,28 @@ main {
   box-sizing: border-box;
 }
 
-.whoFrank-start, .whoFrank-middle, .whoFrank-end {
-  width: 30%;
+.whoFrank-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whoFrank-start {
+  grid-column: 1 / 2; /* First column */
+  grid-row: 1 / 2; /* First row */
+  justify-content: flex-start; /* Align text to the left */
 }
 
 .whoFrank-middle {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  flex: 1; /* Take up remaining space */
+  grid-column: 2 / 3; /* Second column */
+  grid-row: 2 / 3; /* Second row */
+  justify-content: center; /* Center text */
+}
+
+.whoFrank-end {
+  grid-column: 1 / 2; /* First column */
+  grid-row: 3 / 4; /* Third row */
+  justify-content: flex-start; /* Align text to the left */
 }
 
 .slideshow-container {
