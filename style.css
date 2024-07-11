@@ -63,6 +63,7 @@ main {
 .header-end a {
   text-decoration: none;
   color: black;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .header-end a:hover {
@@ -266,7 +267,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -304,13 +305,16 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background-size: contain; /* Adjust background size for mobile sizes */
   }
   .quote-text {
-    font-size: 24px;
+     font-size: 0.5em;
   }
   .text {
-    font-size: 12px;
+     font-size: 0.5em;
   }
   .elect-text{
-  font-size: 12px;
+   font-size: 0.5em;
+}
+  .header-end a {
+    font-size: 0.5em;
 }
 }
 
@@ -330,12 +334,12 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background-size: contain; /* Adjust background size for mobile sizes */
   }
   .quote-text {
-    font-size: 12px;
+     font-size: 0.25em;
   }
   .text {
-    font-size: 10px;
+     font-size: 0.25em;
   }
   .elect-text{
-  font-size: 8px;
+   font-size: 0.25em;
 }
 }
