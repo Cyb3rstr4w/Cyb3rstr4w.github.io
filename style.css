@@ -311,6 +311,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   .text {
      font-size: 0.5em;
   }
+  .header-end ul {
+  gap: .25em;
+}
   .elect-text{
    font-size: 0.5em;
     text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
@@ -342,6 +345,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   .text {
      font-size: 0.25em;
   }
+  .header-end ul {
+  gap: .25em;
+}
   .elect-text{
    font-size: 0.25em;
     text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
