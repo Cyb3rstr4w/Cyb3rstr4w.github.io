@@ -101,7 +101,7 @@ main {
 
 .whoFrank-container {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr; /* Two columns with equal width */
+  grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
   grid-template-rows: 0.5fr 0.5fr 0.5fr; /* Three rows with equal height */
   gap: 10px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
