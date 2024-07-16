@@ -71,7 +71,7 @@ main {
   color: blue;
 }
 
-.nav-links2 {
+.nav-links-WhoFrank {
 display: flex;
   alignment: center;
   background-color: #FFF;
@@ -155,6 +155,33 @@ display: flex;
   background: url('images/BGFrank.jpg') no-repeat center center/cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   color: white;
+}
+
+.whoFrank-nav {
+  margin-top: 20px; /* Add some space above the navigation */
+}
+
+.nav-links-whoFrank {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center; /* Center the navigation links */
+}
+
+.nav-links-whoFrank li {
+  margin: 0;
+}
+
+.nav-links-whoFrank a {
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.nav-links-whoFrank a:hover {
+  text-decoration: underline;
+  color: blue;
 }
 
 .slideshow-container {
@@ -288,15 +315,6 @@ display: flex;
   width: 100%;
   color: white; /* Ensure text is visible on background */
   padding: 20px;
-}
-
-.quote-containerEnd {
-display: flex;
-  alignment: center;
-  text-align: center;
-  background-color: 00008B;
-  color: white;
-  
 }
 
 .quote-text {
