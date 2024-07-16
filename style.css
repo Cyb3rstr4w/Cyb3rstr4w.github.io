@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #f7f3e9;
+  background-color: #3A3B35;
   display: flex;
   flex-direction: column;
 }
@@ -119,7 +119,7 @@ main {
 }
 
 .whoFrank-start {
-  background-color: #f7f3e9;
+  background-color: #3A3B35;
   grid-column: 2 / 3; /* Second column */
   grid-row: 1 / 2; /* First row */
   
@@ -128,7 +128,7 @@ main {
 }
 
 .whoFrank-middle {
-  background-color: #f7f3e9;
+  background-color: #3A3B35;
   grid-column: 2 / 3; /* Second column */
   grid-row: 2 / 3; /* Second row */
   justify-content: center; /* Center text */
@@ -136,7 +136,7 @@ main {
 }
 
 .whoFrank-end {
-  background-color: #f7f3e9;
+  background-color: #3A3B35;
   grid-column: 2 / 3; /* Second column */
   grid-row: 3 / 4; /* Third row */
   justify-content: flex-start; /* Align text to the left */
