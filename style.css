@@ -71,6 +71,12 @@ main {
   color: blue;
 }
 
+.nav-links2 {
+display: flex;
+  alignment: center;
+  background-color: #FFF;
+}
+
 .header2 {
   font-size: 24px;
   min-height: 600px;
