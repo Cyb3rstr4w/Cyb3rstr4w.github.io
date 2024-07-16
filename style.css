@@ -122,9 +122,15 @@ display: flex;
 .whoFrank-item {
   padding: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.whoFrank-item p {
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Add some space below the paragraph */
 }
 
 .whoFrank-start {
