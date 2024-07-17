@@ -34,12 +34,16 @@ main {
 .header-content {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 95%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 1;
+}
+
+.header-middle {
+alignment: center;
 }
 
 .header-end {
