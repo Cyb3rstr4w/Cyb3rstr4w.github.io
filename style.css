@@ -109,19 +109,19 @@ display: flex;
 
 .whoFrank-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Three columns with different width */
-  grid-template-rows: 1fr 1fr 1fr; /* Three rows with equal height */
+  grid-template-columns: 1.5fr 1.5fr 1.5fr; /* Three columns with different width */
+  grid-template-rows: .5fr .5fr .5fr; /* Three rows with equal height */
   gap: 10px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
-  margin-left: 350px;
+  margin-left: 275px;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .whoFrank-item {
-    margin-left: 200px;
-  margin-right: 200px;
+    margin-left: 100px;
+  margin-right: 100px;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -140,14 +140,12 @@ display: flex;
   grid-row: 1 / 2; /* First row */
   color: #41433E;
   justify-content: flex-start; /* Align text to the left */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 .whoFrank-middle {
   grid-column: 2 / 3; /* Second column */
   grid-row: 2 / 3; /* Second row */
   justify-content: center; /* Center text */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   color: #41433E;
 }
 
@@ -155,7 +153,6 @@ display: flex;
   grid-column: 1 / 2; /* Second column */
   grid-row: 3 / 4; /* Third row */
   justify-content: flex-start; /* Align text to the left */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   color: #41433E;
 }
 
@@ -444,7 +441,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
   .whoFrank-container {
   grid-template-columns: .25fr .25fr .25fr; /* Three columns with different width */
-  grid-template-rows: 0.25fr 0.25fr 0.25fr; /* Three rows with equal height */
+  grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
   gap: 3px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   padding: 3px;
