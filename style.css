@@ -114,7 +114,8 @@ display: flex;
   gap: 10px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
-  margin-left: 200px;
+  margin-left: 150px;
+  margin-left: 150px;
   padding: 10px;
   box-sizing: border-box;
 }
