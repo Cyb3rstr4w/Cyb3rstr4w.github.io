@@ -394,20 +394,16 @@ display: inline-block;
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
   .responsive-img {
-    max-width: 30%;
+    max-width: 90px;
   }
   .responsive-img2 {
-    max-width: 50%;
+    max-width: 280px;
   }
   .header1 {
     padding: 5%;
   }
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-  }
   .header2 {
-    font-size: 1.5em;
+    font-size: 16px;
   }
   .quote-container {
     gap: 5%;
@@ -416,13 +412,13 @@ display: inline-block;
   .quote-text {
     font-size: 1.5em;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    overflow: hidden;
   }
   .text {
     font-size: 1.5em;
   }
   .header-end ul {
-    gap: 1em;
-    flex-direction: column;
+    gap: .5em;
   }
   .elect-text {
     font-size: 1.5em;
@@ -444,28 +440,27 @@ display: inline-block;
     margin-right: 5%;
     padding: 5%;
   }
+  .whoFrank-text {
+  font-size: .5em;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .responsive-img {
-    max-width: 50%;
+    max-width: 50px;
   }
   .responsive-img2 {
-    max-width: 70%;
+    max-width: 150px;
     margin-right: 0px;
   }
   .header1 {
     padding: 5%;
   }
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-  }
   .header2 {
-    font-size: 1em;
+    font-size: 12px;
   }
   .quote-container {
-    gap: 0;
+    gap: 0px;
     overflow: hidden;
   }
   .quote-text {
@@ -477,8 +472,7 @@ display: inline-block;
     font-size: 1em;
   }
   .header-end ul {
-    gap: 0.5em;
-    flex-direction: column;
+    gap: 0.25em;
   }
   .elect-text {
     font-size: 1em;
@@ -496,5 +490,8 @@ display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
+  }
+  .whoFrank-text {
+  font-size: .25em;
   }
 }
