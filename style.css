@@ -34,7 +34,7 @@ main {
 .header-content {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 95%;
   margin: 0 auto;
   padding: 0 20px;
