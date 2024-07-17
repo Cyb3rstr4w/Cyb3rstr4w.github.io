@@ -116,7 +116,6 @@ display: flex;
   background-color: #FFFFFF;
   margin-left: 150px;
   margin-right: 150px;
-  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -145,6 +144,7 @@ font-size: 24px;
   grid-row: 1 / 2; /* First row */
   color: #41433E;
   justify-content: flex-start; /* Align text to the left */
+  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
 
 .whoFrank-middle {
@@ -152,6 +152,7 @@ font-size: 24px;
   grid-row: 2 / 3; /* Second row */
   justify-content: center; /* Center text */
   color: #41433E;
+  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
 
 .whoFrank-end {
@@ -159,6 +160,7 @@ font-size: 24px;
   grid-row: 3 / 4; /* Third row */
   justify-content: flex-start; /* Align text to the left */
   color: #41433E;
+  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
 
 .whoFrank-nav {
@@ -171,7 +173,6 @@ font-size: 24px;
   gap: 20px;
   padding: 0;
   justify-content: center; /* Center the navigation links */
-  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
 
 .nav-links-whoFrank li {
@@ -182,7 +183,6 @@ font-size: 24px;
   text-decoration: none;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
 
 .nav-links-whoFrank a:hover {
