@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-background-color: #FFFFFF;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
@@ -15,7 +15,7 @@ main {
 .header1 {
   position: relative;
   color: white;
-  padding: 10px;
+  padding: 2%;
   text-align: end;
   overflow: hidden;
 }
@@ -37,13 +37,13 @@ main {
   justify-content: space-between;
   width: 95%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 2%;
   box-sizing: border-box;
   z-index: 1;
 }
 
 .header-middle {
-alignment: center;
+  text-align: center;
 }
 
 .header-end {
@@ -59,7 +59,7 @@ alignment: center;
 .header-end ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 2%;
   margin: 0;
   padding: 0;
 }
@@ -76,13 +76,13 @@ alignment: center;
 }
 
 .nav-links-WhoFrank {
-display: flex;
-  alignment: center;
+  display: flex;
+  align-items: center;
   background-color: #FFF;
 }
 
 .header2 {
-  font-size: 24px;
+  font-size: 2em;
   min-height: 600px;
   background-color: #FFFFFF;
   color: black;
@@ -93,10 +93,10 @@ display: flex;
   position: relative;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  padding: 10px;
+  padding: 2%;
   text-align: center; /* Corrected syntax */
   overflow: hidden;
-  font-size: 24px;
+  font-size: 2em;
   z-index: 2;
 }
 
@@ -114,20 +114,18 @@ display: flex;
 
 .whoFrank-container {
   display: grid;
-  grid-template-columns: 2fr 2fr; /* two columns with equal width */
-  grid-template-rows: .5fr .5fr .5fr; /* Three rows with equal height */
-  gap: 10px; /* Space between grid items */
-  height: 100vh; /* Full height of the viewport */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-template-rows: auto auto auto; /* Auto height rows */
+  gap: 1%;
+  height: auto; /* Adjust height */
   background-color: #FFFFFF;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 2%;
   box-sizing: border-box;
 }
 
 .whoFrank-item {
-    margin-left: 100px;
-  margin-right: 100px;
-  padding: 40px;
+  margin: 2%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,48 +134,48 @@ display: flex;
 }
 
 .whoFrank-item p {
-  text-align: center; /* Center align text */
-  margin-bottom: 20px; /* Add some space below the paragraph */
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .whoFrank-text {
-font-size: 24px;
+  font-size: 2em;
 }
 
 .whoFrank-start {
-  grid-column: 1 / 2; /* Second column */
-  grid-row: 1 / 2; /* First row */
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   color: #41433E;
-  justify-content: flex-start; /* Align text to the left */
-  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
+  justify-content: flex-start;
+  background: url('images/BGFrank.jpg') no-repeat center/cover;
 }
 
 .whoFrank-middle {
-  grid-column: 2 / 3; /* Second column */
-  grid-row: 2 / 3; /* Second row */
-  justify-content: center; /* Center text */
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-content: center;
   color: #41433E;
-  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
+  background: url('images/BGFrank.jpg') no-repeat center/cover;
 }
 
 .whoFrank-end {
-  grid-column: 1 / 2; /* Second column */
-  grid-row: 3 / 4; /* Third row */
-  justify-content: flex-start; /* Align text to the left */
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  justify-content: flex-start;
   color: #41433E;
-  background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
+  background: url('images/BGFrank.jpg') no-repeat center/cover;
 }
 
 .whoFrank-nav {
-  margin-top: 20px; /* Add some space above the navigation */
+  margin-top: 2%;
 }
 
 .nav-links-whoFrank {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 2%;
   padding: 0;
-  justify-content: center; /* Center the navigation links */
+  justify-content: center;
 }
 
 .nav-links-whoFrank li {
@@ -185,28 +183,29 @@ font-size: 24px;
 }
 
 .nav-links-whoFrank a {
- display: inline-block; /* Ensure padding and background are applied */
-  padding: 10px 20px; /* Padding around the text */
-  background-color: #41433E; /* Background color for the button */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  color: white; /* Text color */
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Text shadow */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #41433E;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-links-whoFrank a:hover {
-  color: blue;
+  background-color: #FFFFFF;
+  color: #41433E;
+  text-decoration: underline;
 }
 
 .slideshow-container {
   position: relative;
   background-color: #FFFFFF;
-  max-width: 1000px;
-  margin-top: 350px;
-  margin: auto;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  max-width: 90%;
+  margin: 5% auto;
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: visible;
 }
 
@@ -226,11 +225,11 @@ font-size: 24px;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 2%;
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.5em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -238,17 +237,17 @@ font-size: 24px;
 }
 
 .next {
-  right: -50px; /* Position next button slightly outside to the right */
+  right: -5%;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
-  left: -50px; /* Position previous button slightly outside to the left */
+  left: -5%;
   border-radius: 0 3px 3px 0;
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .mySlides.visible-left {
@@ -257,7 +256,7 @@ font-size: 24px;
   top: 0;
   left: -25%;
   z-index: 0;
-  opacity: 0.5; /* Make it slightly transparent */
+  opacity: 0.5;
 }
 
 .mySlides.visible-right {
@@ -266,18 +265,18 @@ font-size: 24px;
   top: 0;
   right: -25%;
   z-index: 0;
-  opacity: 0.5; /* Make it slightly transparent */
+  opacity: 0.5;
 }
 
 .text {
   color: white;
-  font-size: 24px;
-  padding: 8px 12px;
+  font-size: 2em;
+  padding: 2%;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .fadeIn {
@@ -309,13 +308,14 @@ font-size: 24px;
   from { opacity: 1; }
   to { opacity: 0; }
 }
+
 .responsive-img {
-  max-width: 100px; /* Maximum width for the image */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 20%;
+  height: auto;
 }
 
 .responsive-img2 {
-  max-width: 400px;
+  max-width: 80%;
   height: auto;
 }
 
@@ -323,160 +323,148 @@ font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
-  background-size: 100% 120%;
+  background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover;
+  background-size: 100% 140%;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
-  color: white; /* Ensure text is visible on background */
-  padding: 0px;
+  color: white;
+  padding: 2%;
 }
 
 .quote-text {
-  font-size: 48px;
+  font-size: 2em;
   text-align: center;
   margin-left: auto;
   max-width: 50%;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Use Palatino font */
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
-.elect-text{
-  align-items: center;
+.elect-text {
   text-align: center;
-  font-size: 24px;
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 2em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .facebook-button {
   display: inline-block;
-  margin-top: 10px;
-  z-index: 2; /* Ensure it is above the background image */
+  margin-top: 2%;
+  z-index: 2;
   position: relative;
 }
 
 .facebook-icon {
-  width: 24px; /* Adjust the size as needed */
+  width: 1.5em;
   height: auto;
   vertical-align: middle;
-}
-
-/* Arrow buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev {
-  left: 0;
-  border-radius: 0 3px 3px 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
   .responsive-img {
-    max-width: 70px; /* Adjust the size for tablet sizes */
+    max-width: 30%;
   }
   .responsive-img2 {
-    max-width: 250px; /* Adjust the size for tablet sizes */
+    max-width: 50%;
+  }
+  .header1 {
+    padding: 5%;
+  }
+  .header-content {
+    flex-direction: column;
+    text-align: center;
   }
   .header2 {
-    font-size: 16px;
+    font-size: 1.5em;
   }
   .quote-container {
-    gap: 10px;
-    background-size: .5em;
+    gap: 5%;
+    background-size: cover;
   }
   .quote-text {
-     font-size: 0.5em;
-    text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   .text {
-     font-size: 0.5em;
+    font-size: 1.5em;
   }
   .header-end ul {
-  gap: .25em;
-}
-  .elect-text{
-   font-size: 0.5em;
-    text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
-}
+    gap: 1em;
+    flex-direction: column;
+  }
+  .elect-text {
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
   .header-end a {
-    font-size: 0.5em;
-}
+    font-size: 1.5em;
+  }
+  .whoFrank-container {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto auto auto;
+    gap: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .whoFrank-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .responsive-img {
-    max-width: 50px; /* Adjust the size for mobile sizes */
+    max-width: 50%;
   }
   .responsive-img2 {
-    max-width: 150px; /* Adjust the size for mobile sizes */
+    max-width: 70%;
     margin-right: 0px;
   }
+  .header1 {
+    padding: 5%;
+  }
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
   .header2 {
-    font-size: 12px;
+    font-size: 1em;
   }
   .quote-container {
-    gap: 0px;
+    gap: 0;
     overflow: hidden;
   }
   .quote-text {
-     font-size: 0.25em;
-    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
+    font-size: 1em;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
     overflow: hidden;
   }
   .text {
-     font-size: 0.25em;
+    font-size: 1em;
   }
   .header-end ul {
-  gap: .25em;
-}
-  .elect-text{
-   font-size: 0.25em;
-    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
-}
+    gap: 0.5em;
+    flex-direction: column;
+  }
+  .elect-text {
+    font-size: 1em;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+  }
   .whoFrank-container {
-  grid-template-columns: .5fr .5fr; /* Three columns with different width */
-  grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
-  gap: 3px; /* Space between grid items */
-  height: auto;
-  padding: 3px;
-  margin-left: 117px;
-}
-
-.whoFrank-text {
-font-size: 8px;
-}
-  
-.whoFrank-item {
-    margin-left: 50px;
-  margin-right: 50px;
-  padding: 20px;
-}
-  .header-end ul {
-  gap: 5px;
-  margin: 0;
-  padding: 0;
-}
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto auto auto;
+    gap: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .whoFrank-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  }
 }
