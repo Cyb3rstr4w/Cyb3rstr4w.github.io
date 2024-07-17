@@ -115,7 +115,7 @@ display: flex;
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
   margin-left: 150px;
-  margin-left: 150px;
+  margin-right: 150px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -447,18 +447,22 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
 }
   .whoFrank-container {
-  grid-template-columns: .25fr .25fr .25fr; /* Three columns with different width */
+  grid-template-columns: .5fr .5fr; /* Three columns with different width */
   grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
   gap: 3px; /* Space between grid items */
-  height: 100vh; /* Full height of the viewport */
+  height: auto;
   padding: 3px;
   margin-left: 117px;
 }
 
+.whoFrank-text {
+font-size: 8px;
+}
+  
 .whoFrank-item {
     margin-left: 50px;
   margin-right: 50px;
-  padding: 28px;
+  padding: 20px;
 }
   .header-end ul {
   gap: 5px;
