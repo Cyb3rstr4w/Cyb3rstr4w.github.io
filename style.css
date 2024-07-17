@@ -443,24 +443,21 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
 }
   .whoFrank-container {
-  display: grid;
   grid-template-columns: .25fr .25fr .25fr; /* Three columns with different width */
   grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
   gap: 3px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
-  background-color: #FFFFFF;
   margin-left: 50px;
   margin-right: 50px;
   padding: 3px;
-  box-sizing: border-box;
 }
 
 .whoFrank-item {
   padding: 28px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+  .header-end ul {
+  gap: 5px;
+  margin: 0;
+  padding: 0;
 }
 }
