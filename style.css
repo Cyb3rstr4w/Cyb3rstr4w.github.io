@@ -114,13 +114,13 @@ display: flex;
   gap: 10px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
-  margin-left: 200px;
-  margin-right: 200px;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .whoFrank-item {
+    margin-left: 200px;
+  margin-right: 200px;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -447,12 +447,12 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
   gap: 3px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
-  margin-left: 50px;
-  margin-right: 50px;
   padding: 3px;
 }
 
 .whoFrank-item {
+    margin-left: 50px;
+  margin-right: 50px;
   padding: 28px;
 }
   .header-end ul {
