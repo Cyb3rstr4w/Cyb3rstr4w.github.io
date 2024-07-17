@@ -324,7 +324,7 @@ font-size: 24px;
   justify-content: center;
   align-items: center;
   background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
-  background-size: 100% 80%;
+  background-size: 100% 120%;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
