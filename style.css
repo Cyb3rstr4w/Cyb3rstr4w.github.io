@@ -182,17 +182,15 @@ font-size: 24px;
 .nav-links-whoFrank a {
  display: inline-block; /* Ensure padding and background are applied */
   padding: 10px 20px; /* Padding around the text */
-  background-color: #FFFFFF; /* Background color for the button */
+  background-color: #41433E; /* Background color for the button */
   border-radius: 5px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
-  color: black; /* Text color */
+  color: white; /* Text color */
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Text shadow */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .nav-links-whoFrank a:hover {
-  background-color: #41433E;
-  text-decoration: underline;
   color: blue;
 }
 
