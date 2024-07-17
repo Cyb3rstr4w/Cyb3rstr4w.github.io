@@ -203,9 +203,9 @@ font-size: 24px;
   position: relative;
   background-color: #FFFFFF;
   max-width: 1000px;
-  margin-top: 350px;
+  margin-top: 5% auto;
   margin: auto;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   overflow: visible;
 }
@@ -331,7 +331,6 @@ font-size: 24px;
   flex-wrap: wrap;
   width: 100%;
   color: white; /* Ensure text is visible on background */
-  padding: 0px;
 }
 
 .quote-text {
@@ -350,14 +349,14 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .facebook-button {
-  display: inline-block;
-  margin-top: 10px;
-  z-index: 2; /* Ensure it is above the background image */
+display: inline-block;
+  margin-top: 2%;
+  z-index: 2;
   position: relative;
 }
 
 .facebook-icon {
-  width: 24px; /* Adjust the size as needed */
+ width: 1.5em;
   height: auto;
   vertical-align: middle;
 }
@@ -395,88 +394,107 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
   .responsive-img {
-    max-width: 70px; /* Adjust the size for tablet sizes */
+    max-width: 30%;
   }
   .responsive-img2 {
-    max-width: 250px; /* Adjust the size for tablet sizes */
+    max-width: 50%;
+  }
+  .header1 {
+    padding: 5%;
+  }
+  .header-content {
+    flex-direction: column;
+    text-align: center;
   }
   .header2 {
-    font-size: 16px;
+    font-size: 1.5em;
   }
   .quote-container {
-    gap: 10px;
-    background-size: .5em;
+    gap: 5%;
+    background-size: cover;
   }
   .quote-text {
-     font-size: 0.5em;
-    text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   .text {
-     font-size: 0.5em;
+    font-size: 1.5em;
   }
   .header-end ul {
-  gap: .25em;
-}
-  .elect-text{
-   font-size: 0.5em;
-    text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
-}
+    gap: 1em;
+    flex-direction: column;
+  }
+  .elect-text {
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
   .header-end a {
-    font-size: 0.5em;
-}
+    font-size: 1.5em;
+  }
+  .whoFrank-container {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto auto auto;
+    gap: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .whoFrank-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .responsive-img {
-    max-width: 50px; /* Adjust the size for mobile sizes */
+    max-width: 50%;
   }
   .responsive-img2 {
-    max-width: 150px; /* Adjust the size for mobile sizes */
+    max-width: 70%;
     margin-right: 0px;
   }
+  .header1 {
+    padding: 5%;
+  }
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
   .header2 {
-    font-size: 12px;
+    font-size: 1em;
   }
   .quote-container {
-    gap: 0px;
+    gap: 0;
     overflow: hidden;
   }
   .quote-text {
-     font-size: 0.25em;
-    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
+    font-size: 1em;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
     overflow: hidden;
   }
   .text {
-     font-size: 0.25em;
+    font-size: 1em;
   }
   .header-end ul {
-  gap: .25em;
-}
-  .elect-text{
-   font-size: 0.25em;
-    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
-}
+    gap: 0.5em;
+    flex-direction: column;
+  }
+  .elect-text {
+    font-size: 1em;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+  }
   .whoFrank-container {
-  grid-template-columns: .5fr .5fr; /* Three columns with different width */
-  grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
-  gap: 3px; /* Space between grid items */
-  height: auto;
-  padding: 3px;
-  margin-left: 117px;
-}
-
-.whoFrank-text {
-font-size: 8px;
-}
-  
-.whoFrank-item {
-    margin-left: 50px;
-  margin-right: 50px;
-  padding: 20px;
-}
-  .header-end ul {
-  gap: 5px;
-  margin: 0;
-  padding: 0;
-}
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto auto auto;
+    gap: 2%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .whoFrank-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  }
 }
