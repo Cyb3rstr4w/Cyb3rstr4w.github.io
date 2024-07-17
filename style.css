@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
- background: url('images/BGFrank.jpg') no-repeat center center/cover;
+background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
@@ -110,10 +110,11 @@ display: flex;
 .whoFrank-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Three columns with different width */
-  grid-template-rows: 0.5fr 0.5fr 0.5fr; /* Three rows with equal height */
+  grid-template-rows: 1fr 1fr 1fr; /* Three rows with equal height */
   gap: 10px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
+  margin-left: 350px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -443,10 +444,11 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
   .whoFrank-container {
   grid-template-columns: .25fr .25fr .25fr; /* Three columns with different width */
-  grid-template-rows: 0.134fr 0.134fr 0.134fr; /* Three rows with equal height */
+  grid-template-rows: 0.25fr 0.25fr 0.25fr; /* Three rows with equal height */
   gap: 3px; /* Space between grid items */
   height: 100vh; /* Full height of the viewport */
   padding: 3px;
+  margin-left: 117px;
 }
 
 .whoFrank-item {
