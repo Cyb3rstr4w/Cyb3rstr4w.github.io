@@ -18,9 +18,6 @@ main {
   padding: 10px;
   text-align: end;
   overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   min-height: 150px;
 }
 
@@ -47,10 +44,8 @@ main {
 }
 
 .header-middle {
-  position: absolute;
+alignment: center;
   margin-left: 20px;
-  align-items: center;
-  z-index: 1;
 }
 
 .header-end {
