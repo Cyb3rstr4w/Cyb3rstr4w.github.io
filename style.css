@@ -45,6 +45,7 @@ main {
 
 .header-middle {
 alignment: center;
+  transform: translateX(50px);
 }
 
 .header-end {
@@ -60,6 +61,7 @@ alignment: center;
 .header-end ul {
   list-style-type: none;
   display: flex;
+  gap: 20px;
   margin: 0;
   padding: 0;
 }
