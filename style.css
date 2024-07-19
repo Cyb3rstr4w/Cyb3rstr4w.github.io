@@ -21,7 +21,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 200px;
+  min-height: 150px;
 }
 
 .header1::before {
@@ -48,7 +48,7 @@ main {
 
 .header-middle {
   position: absolute;
-  margin-left: 40px;
+  margin-left: 20px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -119,6 +119,15 @@ display: flex;
   background: url('images/FlagBG.png') no-repeat center center/cover;
   background-color: #FFFFFF;
   z-index: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* Adjust as needed */
+  width: 100%;
 }
 
 .whoFrank-container {
