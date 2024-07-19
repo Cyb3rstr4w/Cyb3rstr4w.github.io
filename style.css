@@ -44,6 +44,7 @@ main {
 
 .header-middle {
 alignment: center;
+flex-grow: 1;
 }
 
 .header-end {
