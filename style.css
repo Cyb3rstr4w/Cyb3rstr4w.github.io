@@ -21,7 +21,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
 }
 
 .header1::before {
@@ -47,8 +46,11 @@ main {
 }
 
 .header-middle {
-alignment: center;
-flex-grow: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
 }
 
 .header-end {
