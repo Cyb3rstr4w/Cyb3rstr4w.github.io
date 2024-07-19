@@ -21,7 +21,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 300px;
+  min-height: 200px;
 }
 
 .header1::before {
