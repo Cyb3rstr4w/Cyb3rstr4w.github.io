@@ -131,9 +131,8 @@ display: flex;
 .whoFrank-container {
   display: grid;
   grid-template-columns: 2fr 2fr; /* two columns with equal width */
-  grid-template-rows: .5fr .5fr .5fr; /* Three rows with equal height */
+  grid-template-rows: .5fr .5fr .5f; /* Three rows with equal height */
   gap: 10px; /* Space between grid items */
-  height: 100vh; /* Full height of the viewport */
   background-color: #FFFFFF;
   margin-left: 150px;
   margin-right: 150px;
