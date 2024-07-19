@@ -47,6 +47,7 @@ main {
 
 .header-middle {
   position: absolute;
+  margin-left: 40px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -331,12 +332,13 @@ font-size: 24px;
   justify-content: center;
   align-items: center;
   background: url('images/4thJulyFrankLesko.png') no-repeat center center/cover; /* Set background image */
-  background-size: 110% 140%;
+  background-size: cover;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   text-align: end;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 600px;
   color: white; /* Ensure text is visible on background */
 }
 
