@@ -18,6 +18,9 @@ main {
   padding: 10px;
   text-align: end;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header1::before {
