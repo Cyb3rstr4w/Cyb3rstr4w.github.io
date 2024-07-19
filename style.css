@@ -21,6 +21,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index;
 }
 
 .header1::before {
