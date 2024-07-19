@@ -60,7 +60,6 @@ alignment: center;
 .header-end ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
   margin: 0;
   padding: 0;
 }
