@@ -505,4 +505,7 @@ display: inline-block;
   .whoFrank-text {
   font-size: .25em;
   }
+  .nav-links-whoFrank a {
+    font-size: .25em;
+}
 }
