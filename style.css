@@ -393,10 +393,12 @@ display: inline-block;
 }
 
 .facebook-page-container {
+  min-width: 1600px;
+  min-height: 1000px
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Adjust as needed */
+  padding: 100px;
 }
 
 /* Media queries to adjust image size on smaller screens */
