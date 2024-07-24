@@ -454,9 +454,26 @@ display: inline-block;
     max-width: 150px;
     margin-right: 0px;
   }
+  
   .header1 {
-    padding: 5%;
-  }
+  position: relative;
+  color: white;
+  padding: 0px;
+  text-align: end;
+  overflow: hidden;
+  min-height: 50px;
+}
+
+.header1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 200px;
+  background: url('images/FlagBG.png') no-repeat center center/cover;
+  z-index: 0;
+}
   .header-content {
   padding: 0 0px;
 }
@@ -471,7 +488,6 @@ display: inline-block;
   .quote-container {
     gap: 0px;
     overflow: hidden;
-    background-size: cover;
     min-height: 200px;
   }
   .quote-text {
@@ -486,12 +502,10 @@ display: inline-block;
     gap: 0.25em;
   }
   .elect-text {
-    font-size: 1em;
+    font-size: .5em;
     text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
   }
   .whoFrank-container {
-    grid-template-columns: 1fr; /* Single column for smaller screens */
-    grid-template-rows: auto auto auto;
     gap: 2%;
     padding: 2%;
     margin-left: 2%;
@@ -507,5 +521,13 @@ display: inline-block;
   }
   .nav-links-whoFrank a {
     font-size: .25em;
+}
+  .closer {
+  padding: 0px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 8px;
+  z-index: 3;
+ background: url('images/FlagBG.png') no-repeat center center/cover;
 }
 }
