@@ -214,7 +214,7 @@ font-size: 24px;
   position: relative;
   background-color: #FFFFFF;
   max-width: 1000px;
-  margin-top: 5% auto;
+  margin-top: 5%;
   margin: auto;
   padding: 2%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
@@ -222,7 +222,7 @@ font-size: 24px;
 }
 
 .mySlides {
-  display: none;
+  display: none; /* Hide all slides by default */
   position: relative;
   border: 2px solid black;
 }
@@ -262,8 +262,11 @@ font-size: 24px;
   background-color: rgba(0,0,0,0.8);
 }
 
+.mySlides.visible-left, .mySlides.visible-right {
+  display: block; /* Ensure the left and right slides are displayed */
+}
+
 .mySlides.visible-left {
-  display: block;
   position: absolute;
   top: 0;
   left: -25%;
@@ -272,14 +275,12 @@ font-size: 24px;
 }
 
 .mySlides.visible-right {
-  display: block;
   position: absolute;
   top: 0;
   right: -25%;
   z-index: 0;
   opacity: 0.5; /* Make it slightly transparent */
 }
-
 .text {
   color: white;
   font-size: 24px;
