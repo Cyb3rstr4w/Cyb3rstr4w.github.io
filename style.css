@@ -537,6 +537,9 @@ alignment: center;
   .nav-links-whoFrank a {
     font-size: .25em;
 }
+  .nav-links-whoFrank {
+  gap: 7px;
+}
   .closer {
   padding: 0px;
   text-align: center;
