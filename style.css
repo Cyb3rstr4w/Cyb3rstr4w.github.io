@@ -485,6 +485,9 @@ display: inline-block;
   .header2 {
     font-size: 12px;
   }
+  .header-middle {
+alignment: center;
+}
   .quote-container {
     gap: 0px;
     overflow: hidden;
@@ -496,8 +499,11 @@ display: inline-block;
     overflow: hidden;
   }
   .text {
-    font-size: 1em;
-  }
+  color: white;
+  font-size: 8px;
+  padding: 3px 4px;
+  bottom: 3px;
+}
   .header-end ul {
     gap: 0.25em;
   }
@@ -506,6 +512,8 @@ display: inline-block;
     text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
   }
   .whoFrank-container {
+    grid-template-columns: .67fr .67fr; /* two columns with equal width */
+    grid-template-rows: .134fr .134fr .134f; /* Three rows with equal height */
     gap: 2%;
     padding: 2%;
     margin-left: 2%;
