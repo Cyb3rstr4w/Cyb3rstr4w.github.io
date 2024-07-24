@@ -496,7 +496,7 @@ display: inline-block;
   }
   .header-middle {
 alignment: center;
-    transform: translateX(-50px);
+    transform: translateX(-15px);
 }
   .quote-container {
     gap: 0px;
