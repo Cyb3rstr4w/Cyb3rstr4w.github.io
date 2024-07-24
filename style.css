@@ -494,6 +494,7 @@ display: inline-block;
   }
   .header-middle {
 alignment: center;
+    transform: translateX(-50px);
 }
   .quote-container {
     gap: 0px;
@@ -542,10 +543,6 @@ alignment: center;
 }
   .closer {
   padding: 0px;
-  text-align: center;
-  overflow: hidden;
   font-size: 8px;
-  z-index: 3;
- background: url('images/FlagBG.png') no-repeat center center/cover;
 }
 }
