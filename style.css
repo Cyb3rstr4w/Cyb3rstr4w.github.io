@@ -392,6 +392,13 @@ display: inline-block;
   background-color: rgba(0,0,0,0.8);
 }
 
+.facebook-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
   .responsive-img {
