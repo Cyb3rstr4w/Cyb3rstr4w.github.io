@@ -448,7 +448,7 @@ display: inline-block;
 
 @media screen and (max-width: 480px) {
   .responsive-img {
-    max-width: 50px;
+    max-width: 25px;
   }
   .responsive-img2 {
     max-width: 150px;
@@ -457,12 +457,22 @@ display: inline-block;
   .header1 {
     padding: 5%;
   }
+  .header-content {
+  padding: 0 0px;
+}
+
+  .header-end a {
+    font-size: .5em;
+}
+  
   .header2 {
     font-size: 12px;
   }
   .quote-container {
     gap: 0px;
     overflow: hidden;
+    background-size: cover;
+    min-height: 200px;
   }
   .quote-text {
     font-size: 1em;
