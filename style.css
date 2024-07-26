@@ -396,7 +396,7 @@ display: inline-block;
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 1fr;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   margin-top: 20px;
   margin-bototm: 20px;
@@ -410,9 +410,14 @@ display: inline-block;
   max-width: 800px;
 }
 .events-text {
-  grid-column: 2 / 3;
+    grid-column: 2 / 3;
   font-size: 24px;
-  color: white;
+  color: black; /* Use black for better visibility */
+  text-align: left; /* Align text to the left */
+  background-color: #f7f7f7; /* Light background color for contrast */
+  padding: 20px; /* Add padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
+  border-radius: 10px; /* Rounded corners */
 }
 
 /* Media queries to adjust image size on smaller screens */
