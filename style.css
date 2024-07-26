@@ -396,6 +396,8 @@ display: inline-block;
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bototm: 20px;
   width: 100%;
