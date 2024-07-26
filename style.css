@@ -393,17 +393,24 @@ display: inline-block;
 }
 
 .facebook-page-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr;
   margin-top: 20px;
+  margin-bototm: 20px;
   width: 100%;
   max-width: 1000px; 
 }
 
 .fb-page {
+   grid-column: 1 / 2;
   width: 100% !important;
   max-width: 800px;
+}
+.events-text {
+  grid-column: 2 / 3;
+  font-size: 24px;
+  color: white;
 }
 
 /* Media queries to adjust image size on smaller screens */
