@@ -421,6 +421,7 @@ display: inline-block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
   border-radius: 10px; /* Rounded corners */
   margin-right: 600px;
+  margin-left: 600px;
   margin-top: 150px;
 }
 
