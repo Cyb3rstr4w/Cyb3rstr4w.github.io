@@ -393,9 +393,7 @@ display: inline-block;
 }
 
 .facebook-page-container {
-  display: grid;
-  grid-template-columns: 6fr 6fr;
-  grid-template-rows: 1fr;
+  display: flex;
   align-items: start;
   justify-content: center;
   margin-top: 20px;
@@ -406,13 +404,23 @@ display: inline-block;
 }
 
 .fb-page {
-   grid-column: 1 / 2;
   width: 100% !important;
   max-width: 800px;
   margin-left: 600px;
 }
+
+.events-text-title {
+  font-size: 48px;
+  color: black; /* Use black for better visibility */
+  text-align: center; /* Align text to the left */
+  padding: 20px; /* Add padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
+  margin-right: 600px;
+  margin-left: 600px;
+  margin-top: 150px;
+}
+
 .events-text {
-    grid-column: 2 / 3;
   font-size: 24px;
   color: black; /* Use black for better visibility */
   text-align: center; /* Align text to the left */
