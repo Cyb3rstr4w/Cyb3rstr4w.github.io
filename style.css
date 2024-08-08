@@ -406,7 +406,6 @@ display: inline-block;
 .fb-page {
   width: 100% !important;
   max-width: 800px;
-  margin-left: 600px;
 }
 
 .events-text-title {
@@ -414,9 +413,6 @@ display: inline-block;
   color: black; /* Use black for better visibility */
   text-align: center; /* Align text to the left */
   padding: 20px; /* Add padding for spacing */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
-  margin-right: 600px;
-  margin-left: 600px;
   margin-top: 150px;
 }
 
@@ -428,8 +424,6 @@ display: inline-block;
   padding: 20px; /* Add padding for spacing */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
   border-radius: 10px; /* Rounded corners */
-  margin-right: 600px;
-  margin-left: 600px;
   margin-top: 150px;
 }
 
