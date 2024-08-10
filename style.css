@@ -359,13 +359,11 @@ display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
-  max-width: 1000px; 
   gap: 40px;
 }
 
 .fb-page {
   width: 100% !important;
-  max-width: 800px;
 }
 
 .events-text-title {
@@ -373,7 +371,6 @@ display: inline-block;
   color: black; /* Use black for better visibility */
   text-align: center; /* Align text to the left */
   padding: 20px; /* Add padding for spacing */
-  margin-top: 150px;
 }
 
 .events-text {
@@ -384,7 +381,6 @@ display: inline-block;
   padding: 20px; /* Add padding for spacing */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
   border-radius: 10px; /* Rounded corners */
-  margin-top: 150px;
 }
 
 /* Media queries to adjust image size on smaller screens */
