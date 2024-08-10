@@ -56,23 +56,32 @@
     </nav>
   </div>
 </div>
-      <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="images/FrankParade.jpg" style="width:90%">
-        <div class="text">Hi Friends! I had a blast today dressing up as Franky O'Lesko with my Shamrocks at the St. Patrick's Day parade downtown! Thank you to my employees, friends and family for braving the cold wind and having fun with me today!</div>
-      </div>
-      <div class="mySlides fade">
-        <img src="images/FrankVirden.png" style="width:40%">
-        <div class="text">I spent time in Thayer, Virden, Waverly and Divernon. Had a wonderful weekend meeting new people, seeing old friends, and experiencing the emergence of the cicadas!</div>
-      </div>
-      <div class="mySlides fade">
-        <img src="images/FrankSign.png" style="width:84%" id="sign.png">
-        <div class="text">Please don't forget to vote!</div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     
+Let's go over the code again to ensure its functionality and address any potential issues.
+
+HTML:
+html
+Copy code
+<div class="slider-container">
+  <div class="slider-wrapper">
+    <div class="slide">
+      <img src="images/FrankParade.jpg" alt="Frank Parade">
     </div>
+    <div class="slide">
+      <img src="images/FrankVirden.png" alt="Frank in Virden">
     </div>
+    <div class="slide">
+      <img src="images/FrankSign.png" alt="Frank Sign">
+    </div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="dots-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
   </main>
   <div class="closer">
     <p><b>Paid for by friends of Frank Lesko</b></p>
@@ -94,20 +103,20 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let visibleLeft = (n - 2 + slides.length) % slides.length;
-  let visibleRight = (n % slides.length);
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
 
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-    slides[i].classList.remove("visible-left", "visible-right");
+    slides[i].style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
   }
 
-  slides[visibleLeft].classList.add("visible-left");
-  slides[visibleRight].classList.add("visible-right");
-  slides[slideIndex - 1].style.display = "block";
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  dots[slideIndex - 1].className += " active";
 }
   </script>
 </body>
