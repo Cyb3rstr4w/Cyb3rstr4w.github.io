@@ -154,7 +154,7 @@ font-size: 24px;
 .whoFrank-middle {
   grid-column: 2 / 3; /* Second column */
   grid-row: 2 / 3; /* Second row */
-  justify-content: center; /* Center text */
+  justify-content: flex-start;
   color: #41433E;
   background: url('images/BGFrank.jpg') no-repeat center/cover center/cover;
 }
