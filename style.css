@@ -383,6 +383,33 @@ display: inline-block;
   border-radius: 10px; /* Rounded corners */
 }
 
+.nav-links-sign {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center; /* Center the navigation links */
+}
+
+.nav-links-sign li {
+  margin: 0;
+}
+
+.nav-links-sign a {
+ display: inline-block; /* Ensure padding and background are applied */
+  padding: 10px 20px; /* Padding around the text */
+  background-color: #41433E; /* Background color for the button */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  color: white; /* Text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Text shadow */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-links-sign a:hover {
+  color: blue;
+}
+
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
   .responsive-img {
