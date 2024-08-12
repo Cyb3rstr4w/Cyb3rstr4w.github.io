@@ -383,6 +383,9 @@ display: inline-block;
   border-radius: 10px; /* Rounded corners */
 }
 
+.sign-nav {
+}
+
 .nav-links-sign {
   list-style-type: none;
   display: flex;
