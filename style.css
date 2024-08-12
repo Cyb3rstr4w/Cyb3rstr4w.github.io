@@ -559,4 +559,9 @@ alignment: center;
   padding: 0px;
   font-size: 8px;
 }
+  .slide img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
 }
