@@ -409,6 +409,9 @@ display: inline-block;
 .nav-links-sign a:hover {
   color: blue;
 }
+involved-img {
+max-width:1600px;
+}
 
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
