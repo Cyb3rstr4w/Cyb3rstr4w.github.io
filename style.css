@@ -116,16 +116,12 @@ display: flex;
   display: grid;
   grid-template-columns: 3fr 3fr; /* two columns with equal width */
   grid-template-rows: .5fr .5fr .5f; /* Three rows with equal height */
-  gap: 10px; /* Space between grid items */
+  gap: 50px; /* Space between grid items */
   background-color: #FFFFFF;
-  margin-left: 150px;
-  margin-right: 150px;
   box-sizing: border-box;
 }
 
 .whoFrank-item {
-    margin-left: 100px;
-  margin-right: 100px;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -144,6 +140,7 @@ font-size: 24px;
 }
 
 .whoFrank-start {
+  margin-left: 100px;
   grid-column: 1 / 2; /* Second column */
   grid-row: 1 / 2; /* First row */
   color: #41433E;
@@ -152,6 +149,7 @@ font-size: 24px;
 }
 
 .whoFrank-middle {
+  margin-right: 100px;
   grid-column: 2 / 3; /* Second column */
   grid-row: 2 / 3; /* Second row */
   justify-content: flex-start;
@@ -160,6 +158,7 @@ font-size: 24px;
 }
 
 .whoFrank-end {
+  margin-left: 100px;
   grid-column: 1 / 2; /* Second column */
   grid-row: 3 / 4; /* Third row */
   justify-content: flex-start; /* Align text to the left */
