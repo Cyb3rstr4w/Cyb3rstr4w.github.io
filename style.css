@@ -411,9 +411,11 @@ display: inline-block;
 }
 .involved-img {
 max-width:1600px;
+  height:auto;
 }
 .note-img {
 min-height:300px;
+  height: auto;
 }
 
 /* Media queries to adjust image size on smaller screens */
