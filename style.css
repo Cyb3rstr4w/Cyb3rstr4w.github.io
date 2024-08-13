@@ -563,4 +563,9 @@ alignment: center;
   height: 175px;
   object-fit: cover;
 }
+  .dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 1px;
+}
 }
