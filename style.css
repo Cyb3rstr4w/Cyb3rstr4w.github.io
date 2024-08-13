@@ -412,6 +412,9 @@ display: inline-block;
 .involved-img {
 max-width:1600px;
 }
+.note-img {
+min-height:300px;
+}
 
 /* Media queries to adjust image size on smaller screens */
 @media screen and (max-width: 768px) {
