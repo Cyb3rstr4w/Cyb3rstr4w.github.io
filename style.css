@@ -115,7 +115,7 @@ display: flex;
 .whoFrank-container {
   display: grid;
   grid-template-columns: 3fr 3fr; /* two columns with equal width */
-  grid-template-rows: .5fr .5fr .5f; /* Three rows with equal height */
+  grid-template-rows: .35fr .35fr .35f; /* Three rows with equal height */
   gap: 50px; /* Space between grid items */
   background-color: #FFFFFF;
   box-sizing: border-box;
