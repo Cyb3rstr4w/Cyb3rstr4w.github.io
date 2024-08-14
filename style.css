@@ -536,7 +536,7 @@ alignment: center;
   }
   .elect-text {
     font-size: .5em;
-    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    text-shadow: -0.1px -0.1px 0 #000, 0.1px -0.1px 0 #000, -0.1px 0.1px 0 #000, 0.1px 0.1px 0 #000;
   }
   .whoFrank-container {
     grid-template-columns: .67fr .67fr; /* two columns with equal width */
