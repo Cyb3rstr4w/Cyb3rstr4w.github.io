@@ -576,4 +576,10 @@ alignment: center;
   width: 5px;
   margin: 0 1px;
 }
+  .nav-links-sign a {
+  padding: 3px 5px;
+  }
+    .nav-links-sign {
+      gap: 5px;
+        }
 }
