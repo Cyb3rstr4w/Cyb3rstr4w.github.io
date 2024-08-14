@@ -484,7 +484,6 @@ min-height:300px;
   }
   
   .header1 {
-  position: relative;
   color: white;
   padding: 0px;
   text-align: end;
@@ -494,7 +493,6 @@ min-height:300px;
 
 .header1::before {
   content: "";
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -515,7 +513,7 @@ min-height:300px;
   }
   .header-middle {
 alignment: center;
-    transform: translateX(-15px);
+    justify-content: center;
 }
   .quote-container {
     gap: 0px;
@@ -558,10 +556,12 @@ alignment: center;
   }
   .nav-links-whoFrank a {
     font-size: .25em;
+    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
 }
   .nav-links-whoFrank {
   gap: 7px;
 }
+  
   .closer {
   padding: 0px;
   font-size: 8px;
