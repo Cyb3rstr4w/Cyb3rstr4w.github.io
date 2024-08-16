@@ -87,7 +87,7 @@ display: flex;
   font-size: 24px;
   min-height: 600px;
   background-color: #FFFFFF;
-  color: black;
+  color: #41433E;
   padding: 0;
 }
 
@@ -367,14 +367,14 @@ display: inline-block;
 
 .events-text-title {
   font-size: 48px;
-  color: black; /* Use black for better visibility */
+  color: #41433E;
   text-align: center; /* Align text to the left */
   padding: 20px; /* Add padding for spacing */
 }
 
 .events-text {
   font-size: 24px;
-  color: black; /* Use black for better visibility */
+ color: #41433E;
   text-align: center; /* Align text to the left */
   background: url('images/note-147951_1280.png') no-repeat center center/cover; /* Set background image */
   padding: 20px; /* Add padding for spacing */
