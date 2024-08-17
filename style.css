@@ -420,35 +420,35 @@ min-height:300px;
   height: auto;
 }
 .about-container {
-  display: flex; /* Establishes a flex container */
-  flex-direction: column; /* Aligns items vertically */
-  align-items: center; /* Centers items horizontally */
-  justify-content: center; /* Centers items vertically */
-  width: 100%; /* Full width of the parent container */
-  padding: 20px; /* Adds space inside the container */
-  box-sizing: border-box; /* Includes padding and border in element's width and height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Includes padding in the width calculation */
 }
 
 .about-text {
-  width: 80%; /* Restrict the paragraph width */
-  text-align: center; /* Center-aligns the text */
-  margin-bottom: 20px; /* Adds space below the text paragraph */
-  font-size: 1.2em; /* Slightly larger font size for readability */
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
 }
 
 .about-pics {
-  display: grid; /* Establishes a grid container */
+  display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
-  gap: 10px; /* Space between grid items */
-  width: 100%; /* Full width of the parent container */
+  gap: 10px;
+  width: 100%;
 }
 
 .about-pics img {
-  width: 100%; /* Images fill the width of the grid item */
-  height: auto; /* Maintains the aspect ratio of the images */
-  border-radius: 10px; /* Rounds the corners of the images */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-  object-fit: cover; /* Ensures the image covers the entire grid item */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 
