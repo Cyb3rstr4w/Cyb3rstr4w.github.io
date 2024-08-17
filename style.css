@@ -88,6 +88,7 @@ display: flex;
   min-height: 600px;
   background-color: #FFFFFF;
   color: #41433E;
+    background: url('images/note-147951_1280.png') no-repeat center center/cover; /* Set background image */
   padding: 0;
 }
 
@@ -186,6 +187,7 @@ font-size: 24px;
  display: inline-block; /* Ensure padding and background are applied */
   padding: 10px 20px; /* Padding around the text */
   background-color: #41433E; /* Background color for the button */
+    background: url('images/note-147951_1280.png') no-repeat center center/cover; /* Set background image */
   border-radius: 5px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
   color: white; /* Text color */
@@ -378,7 +380,6 @@ display: inline-block;
 }
 
 .facebook-page-container {
-  background: url('images/woven-cloth-352481_1920.jpg') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -405,7 +406,6 @@ display: inline-block;
   font-size: 24px;
  color: #41433E;
   text-align: center; /* Align text to the left */
-  background: url('images/note-147951_1280.png') no-repeat center center/cover; /* Set background image */
   padding: 20px; /* Add padding for spacing */
 }
 
