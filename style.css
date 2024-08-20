@@ -454,8 +454,7 @@ min-height:300px;
   justify-content: center;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box; /* Includes padding in the width calculation */
-  background: url('images/woven-cloth-352481_1920.jpg') no-repeat center center/cover;
+  box-sizing: border-box; /* Includes padding in the width calculation 
 }
 
 .about-text {
