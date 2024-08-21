@@ -454,7 +454,7 @@ min-height:300px;
   justify-content: center;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box; /* Includes padding in the width calculation 
+  box-sizing: border-box; /* Includes padding in the width calculation */
 }
 
 .about-text {
