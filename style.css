@@ -556,6 +556,8 @@ min-height:300px;
   text-align: end;
   overflow: hidden;
   min-height: 50px;
+     alignment: center;
+    justify-content: center;
 }
 
 .header1::before {
@@ -573,22 +575,20 @@ min-height:300px;
 
   .header-end a {
     font-size: .25em;
+    text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
 }
   
   .header2 {
     font-size: 12px;
   }
-  .header-middle {
-alignment: center;
-    justify-content: center;
-}
+
   .quote-container {
     gap: 0px;
     overflow: hidden;
-    min-height: 200px;
+    min-height: 180px;
   }
   .quote-text {
-    font-size: 1em;
+    font-size: .8em;
     text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
     overflow: hidden;
   }
@@ -603,7 +603,7 @@ alignment: center;
   }
   .elect-text {
     font-size: .5em;
-    text-shadow: -0.1px -0.1px 0 #000, 0.1px -0.1px 0 #000, -0.1px 0.1px 0 #000, 0.1px 0.1px 0 #000;
+    text-shadow: -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000, -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000;
   }
   .whoFrank-container {
     grid-template-columns: .67fr .67fr; /* two columns with equal width */
@@ -619,12 +619,14 @@ alignment: center;
     padding: 5%;
   }
   .whoFrank-text {
-  font-size: .5em;
+  font-size: .75em;
   }
   .nav-links-whoFrank a {
     font-size: .25em;
     text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;
+    padding: 10px 20px; /* Padding around the text */
 }
+  
   .nav-links-whoFrank {
   gap: 7px;
 }
