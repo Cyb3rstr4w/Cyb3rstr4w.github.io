@@ -461,8 +461,10 @@ min-height:300px;
   width: 80%;
   text-align: center;
   margin-bottom: 20px;
+  margin-right: 450px;
+  margin-left: 450px;
   font-size: 1.2em;
-  color: darkgray;
+  color: #41433E;
 }
 
 .about-pics {
